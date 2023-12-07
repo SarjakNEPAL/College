@@ -1,0 +1,45 @@
+We should write comment to explain our code. and know the purpose of code. This is required when we have gaps in our projects. 
+comments doesnot allocate memory and is not printable. 
+
+LED project
+- 4 members 1 leader
+- use github 
+make a repo in github 
+work division like frontend and backend, git management, and all. use comments and doc string. 
+
+
+
+docstrings: when we need to describe and a module or function. we do this to explain the function . uses ''' ''' (triple quotation). use inside the function. 
+to display this print(add.__doc__)
+
+
+/ gives quotient in float. if we need specific number of decimal character use round function
+		a=1.2345
+		print(round(a,2))
+% remainder
+** gives power
+// gives integer quotient
+
+
+i=i+1
+i+=1 is same
+
+== gives bolean value
+
+
+Logical Operators 
+They are used to make decision 
+	AND operator-
+	OR operator-
+	
+bitwise Operators
+	the operations are performed in bitwise 
+& operator
+
+^ XOR operator
+
+
+Positive number->
+	binary --> truth table --> 1s -->2s
+Negetive number->
+	binary->1s->2s->truth table

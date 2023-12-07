@@ -1,0 +1,10 @@
+12/7/23023
+
+Input Function
+
+eval() can take any data type
+
+a= eval(input())
+
+
+Debugging

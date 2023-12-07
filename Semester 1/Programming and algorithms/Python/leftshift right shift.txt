@@ -1,0 +1,10 @@
+left shift and right shift 
+
+a=10 ---> changed to binary --> 8 bit format.
+
+0 0 0 0 1 0 1 0 -----> 0 0 1 0 1 0 0 0     
+print(a<<2)
+print(37*(2**n)) n = number of displacement
+
+0 0 0 0 1 0 1 0 <----- 0 0 1 0 1 0 0 0  
+37//2**2
