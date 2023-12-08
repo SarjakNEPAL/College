@@ -1,8 +1,8 @@
 from string import Template
 m= int(input("Enter the number"))
 if m>0:
-    print(1)
+    print(True)
 elif m<0:
-    print(-1)
+    print(False)
 else:
-    print(0)
+    print("zero")
