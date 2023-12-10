@@ -21,4 +21,4 @@ if c!=-1:
     else:
         print(f"Charge for {a} days is {c} ")
 else:
-    print(f"Enter Valid input")
+    print(f"Dates can never be negetive")
