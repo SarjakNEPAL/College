@@ -1,0 +1,31 @@
+When you need to repeat a block of statement, loop is used.
+
+basic stucture is
+1 initialization -> condition -> increment | decrement
+
+for example: 
+
+displaying the name 10 times using Loop 
+
+14th dec:
+
+For loop
+
+
+:/> range() is used to generate a sequence of number
+{
+    for example 
+    range(10)-> if single value is started then the initial value is 0 and step is 1 and the last value is 9
+    range(0,10)-> if two is given, first is initial value and last is the ending point
+    range(0,10,2)->same as above but the last value is the step
+}
+
+for loop:
+    syntax:
+        for <variable> in <sequence>:
+            <statements>
+
+example:
+    i=0
+    for i in range(10):
+        print("Raj")
