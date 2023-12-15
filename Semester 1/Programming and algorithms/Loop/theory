@@ -29,3 +29,6 @@ example:
     i=0
     for i in range(10):
         print("Raj")
+
+
+break: it exits the loop
