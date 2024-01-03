@@ -1,0 +1,52 @@
+Function
+
+While defining a function we should counsider identifier's rules
+
+we cannot use the values inside the functions outside the function
+
+def is used
+
+def function_name(parameters) #defining function
+
+function name(arguement)#calling functional
+
+types of argument :
+
+1)positional argument
+    the values in the argument must be supplied according to the position of the parameter.
+    the number of arguement must be equal to the number of parameters
+    WE CANNOT REPEAT THE DEFINED PARAMETER MULTIPLE TIMES IN SAME 
+    eg 
+    def add(a,b,b) 
+2)keyword argument
+    we must pass the argument with key and value pair
+    The parameters name and the argument name must be same
+
+    eg
+    def add(a,b):return a+b
+    add(a=10,b=20) 
+
+3)default argument
+    add(a,b=10):
+
+    in this arguement the value is defined in the parameter as defiled value
+    if we supply value of a. Funtion doesnt give error without the actual value of b\\
+
+    def add(b=10,a)X we should not weite positional arguement before keyword arguemrnt
+
+
+
+4)Variable length
+
+it is used when we wnt unlimited no of input from ser
+must add(a,*c)♥
+    add(*c,a)X
+
+the datatype of the variable will be tuple
+this rule also applies to Keyword variable length
+
+5)Keyword varianle length
+stoerd as dictionary
+
+{'a':10,'b'=10}
+
