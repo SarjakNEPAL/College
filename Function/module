@@ -1,0 +1,28 @@
+2 types:
+{
+    
+    predefined: the modules available in python. no need to write codes from  scratch
+                the methods available in the module must be imported
+                for eg: to use randint function we need to import random 
+    
+    userdefined: made by user. where there can be function, classes, and etc, it will help in code reusability 
+                for eg we need to import a sum function from a file to another file name signin
+                then source code:
+                in login.py{
+
+                    def sum(x,y):
+                        print(x+y)
+                    }
+
+                    if we need to block some in the module to get execute 
+                    source code:
+                        if __name__ =="main":
+                            sum(10,20)
+
+                    in signin.py:
+                    {
+                        import login
+                        login.sum(10,20)
+                    }
+
+}

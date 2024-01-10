@@ -1,0 +1,25 @@
+it's datas is unpredictable
+for example captchas, and cards etc //not relevant take as example only
+
+to use we need:
+import random
+
+print(dir(random))
+print(random.random())
+float value is returned
+
+for rand range :
+     randrange(1,8)
+     it return integer
+
+for random.uniform
+
+    we supply 2 arguement start and end, last value is end-1 and retuns answer in float same like randint but is float
+
+for random suffle
+    it changes position of list and gives new list
+    eg we have 
+    a=[1,2,4,5,6]
+    random.suffle(a)
+    print(a)
+    the position is changed 

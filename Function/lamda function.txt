@@ -1,0 +1,80 @@
+Priority :B just learn
+can be used in datas panda
+
+
+
+
+
+
+Lambda function without name and is anononymus
+
+anonymus function is anonymus functio tha t is deefine d without names and no of argunet is supplied with expressions 
+return and pass cannot be used beccause it automatically usedd to return
+
+lambda function cannot be used as reusable function prefer lambda function
+ 
+ syntax:
+    lambda arguement:expressions
+
+higher order function: passing function as arguement
+    {
+        map()
+        {
+            syntax:
+                map(func,sequence)
+                workings: applies in evey element and modifes the sequencce and creates a new sequencce as modified datas
+                example:{
+                    //we need to add 2 in each datas
+                    marks=[10,20,30,90]
+                    a=list(map(lambda x:x+2,marks))
+                }
+
+
+        }
+        filter()
+        {
+            synax: filter(func,sequence)
+            working: tests the condition in each element and retuns the value when the result is true
+                if the condition is satisfied by none it returns the null set
+            example:
+                //even datas
+                marks=[1,2,9,11]
+                a=filter(lambda x:x%2==0,marks)
+        }
+        reduce()
+        {
+            syntax:reduce(func,sequencce, initial values)
+            working: evety first 2 2 element is taken and retuns a single value
+            we need to import a module named "functools"
+             like: from functools import *
+            example:
+                a=[1,2,3,4,5]
+                reduce(lambda x,y:x+y,a)
+        }
+
+    }
+
+
+normal function calling:
+{
+def square(x):
+    return x*x
+print(square(10))
+
+}
+
+if function also have print and calling also print then none is displayed 
+
+
+
+for lambda:
+{
+    square=lambda x: x*x
+    print(square(10))
+}
+
+if we need to pass default arguement 
+{
+    square = lambda x=20: x*x
+}
+
