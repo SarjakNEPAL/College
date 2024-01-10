@@ -1,0 +1,11 @@
+import math
+from math import *
+print(dir(math)) # it shows all the methods
+
+print(math.floor(1.8))# returns only integer
+print(math.ceil(1.8))# returns roundp integet
+
+print(math.sqrt(9))#retuns square root as float
+print(pow(2,2)) # returns power as float
+print(fabs(-1),fabs(10)) # converts negetive to positive and positive to positive no change 
+# it returns value in float

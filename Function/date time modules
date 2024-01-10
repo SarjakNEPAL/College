@@ -1,0 +1,8 @@
+from datetime import *
+b=datetime.today()
+c=b+timedelta(weeks=28)
+print(b.year)
+print(b)
+print(c)
+
+# strf time convets in string see school works pro saab cha tya
