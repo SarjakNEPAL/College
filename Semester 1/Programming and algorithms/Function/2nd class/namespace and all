@@ -1,0 +1,15 @@
+Namespace:
+THe concept to control naming the all functions variable keyword and avoids all the conflicts with same names 
+It gives user to use same name multiple times 
+
+types:
+    builtin nameface: int, print etc,
+    global:out of function modlule import
+    local name space: the namespace inside the function and cannot be accssd outside the functions
+
+if we need to modify the enclosed variable then
+
+we need to use 
+ nonelocal
+ and if we need to modoofy the global variable then we use global function
+ 

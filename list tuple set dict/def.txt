@@ -1,0 +1,92 @@
+list
+
+    a=[1,2,3,5,6]
+    mutable
+    duplicate values good
+    .append function will add at back
+        both iterable and non interable can be added
+        iterable: harek value lai access garera operation garna milne
+    extend only iterable allowed
+
+    working:
+        if a.append([1,2])
+        then answer will be [1,2,3,4,5,6,[1,2]]
+        
+        if we extend then the list will apppedn the items in the list
+            eg a.append([1,2])
+        then answer will be [1,2,3,4,5,6,1,2]
+
+    if we need to insert the value to certain position then we use insert
+
+    a.insert(1,"Ram")
+    if we need to remove any element
+    we use pop
+    a. pop() if we dont give arguement then last one will get removed
+    if we use arguement then the list will remove from the given arguement
+
+
+
+    remove method 
+    from this the required data is removed 
+    eg a.remove(4)
+    answer: [1,2,3,5,6]
+
+
+
+    del 
+    if we use del method then the whole variable is deleted and the existence is removed
+    thus while displaying output after using this function error is thrown because no variable exists with that name
+
+
+    to remove each element and get empty list
+    we use clear() method
+
+    copy method:
+    we can copy the elements in the other set using
+    b=copy(a)
+    print(b)
+
+
+tuple
+    immutable - no changes allowed
+
+    for adding the daata in tuple we must use type casting see lab.py    
+
+set: we cannot replace element but can add the elements 
+    to add new element:  .add()
+    here the position can go anywhere because set is unordered.
+    the position of the element is not defined
+
+    eg a={1,2,3,4,5}
+    b={8,9,6,5,4}
+    a.update(b)
+    print(a)
+    output:{1,3,6,8,9}
+    
+    
+    remove function:
+        we must give the element. no indexing or slicing
+        eg a.remove(1)
+            output: {2,3,4,5}
+        if we gice the value that doesnt exist then error given
+
+        a.discard(9): same as remove but when value doesnt exist then no error same set is given
+
+    pop function:
+        it removes first element in set
+        eg
+            a={1,2,3,4,5}
+            print(a.pop)
+            output:{2,3,4,5}
+    a.clear will give set function 
+
+
+    union:
+        it gives union of sets
+        eg a.union(b)
+
+    intersection:
+        it gives intersection of sets   
+        eg a.intersection(b)
+    
+    
