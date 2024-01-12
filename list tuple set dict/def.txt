@@ -89,4 +89,65 @@ set: we cannot replace element but can add the elements
         it gives intersection of sets   
         eg a.intersection(b)
     
+    difference:
+        it is like a-b
+        eg a.difference(b)
+
+    symmetric difference:
+        a-b union b-a
+
+        if nothing then set() is returned
+
+    isdisjoint()
+        it will return true if no values match the element in other set
+        usge a.isdisjoint(b)
+    
+    issubset()
+        if element match then return true.
+
+    issuperset()
+    all values same element then true else false
+
+dictionary
+
+    key and value pair
+    mutable
+    no indexing and slicing and duplicate key
+    if duplicate key last value replaces the preceding value
+    to add
+    a={'a':1}
+    a['b']=8
+    print a 
+
+    b key adds
+
+    update method is used to add keys and value multiple
+
+    a.update(b)
+
+    set default 2 arguemeny
+    a={'a':1}
+    c=a.setdefault("a","cat")
+    print(c)
+    
+    if key found then the value is return else the " cat " is returned which doesnot have any key
+    if no keys found then a will be key and cat will be value and both will append to the set
+
+    to access the value we use get function
+    eg c=a.get(key)
+    if key not available then default is none
+    for our custom
+
+    a.get(key,"Key not found")
+
+    key and value replace
+
+    a.pop() cannot be empty we must specify the key and value pair
+    eg a.pop(a)
+    this will remove key and value
+
+    a.popitem() will remove the last item
+
+    if we assign the variables to this then the removed data can be accessed
+
     
