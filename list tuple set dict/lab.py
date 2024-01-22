@@ -22,5 +22,5 @@ newkey='z'
 a[newkey]=a.pop(oldkey)
 print(a)
 
-for i in a.keys():
+for i in a.keys():    # same thing 
     print(i)
