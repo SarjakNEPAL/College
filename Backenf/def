@@ -1,0 +1,23 @@
+Database
+
+
+to use text file to store the data we need file system 
+to store data in tabular form then we should use Database
+
+to handle bigdata we need to use apache, warehouses, azures, datalegetc
+
+
+
+# the mian topics
+    database: collection of data.
+    in this, datas are stored in tabular form as row and column
+    
+    CURSOR METHOD  helps to execute sqk commands
+
+
+    execute method holds queries for execution
+
+    if there is any change in the database then we must use
+    commit method 
+
+    
